@@ -1,5 +1,5 @@
 ip = input("Enter IP ")
-first = int(ip.split('.'))
+first = int(ip.split('.')[0])
 if 1 <= first <= 126:
     print("Default subnet mask: 255.0.0.0")
 elif 128 <= first <= 191:
